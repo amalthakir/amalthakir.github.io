@@ -147,7 +147,7 @@ body {
   letter-spacing: 0.6rem;
   animation: leftIn 0.75s ease-out;
 }
-@media (max-width: 37.5em) {
+@media (max-width: 40.5em) {
   .heading-primary--main {
     letter-spacing: 1rem;
     font-family: 1rem;
