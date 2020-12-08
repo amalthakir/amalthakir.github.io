@@ -853,8 +853,8 @@ body {
 @media (max-width: 56.25em) {
   .header {
     height: 957vh;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   }
 }
 .header__logo-box {
