@@ -150,7 +150,7 @@ body {
 @media (max-width: 37.5em) {
   .heading-primary--main {
     letter-spacing: 1rem;
-    font-family: 3rem;
+    font-family: 2rem;
   }
 }
 .heading-primary--sub {
