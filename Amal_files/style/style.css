@@ -485,6 +485,15 @@ body {
 .card__side--back {
   transform: rotateY(180deg);
 }
+
+.card__side--back-0 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(47, 4, 58, 0.9),
+    rgba(158, 76, 179, 0.9)
+  );
+}
+
 .card__side--back-1 {
   background-image: linear-gradient(
     to right bottom,
@@ -521,11 +530,21 @@ body {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
+
 .card__picture--1 {
   background-image: linear-gradient(
       to right bottom,
       #eca026,
       rgba(185, 19, 19, 0.911)
+    ),
+    url(../img/gears.png);
+}
+
+.card__picture--0 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(47, 4, 58, 0.9),
+      rgba(158, 76, 179, 0.9)
     ),
     url(../img/gears.png);
 }
@@ -580,6 +599,15 @@ body {
     rgba(170, 43, 21, 0.9)
   );
 }
+
+.card__heading-span--0 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(47, 4, 58, 0.9),
+    rgba(158, 76, 179, 0.9)
+  );
+}
+
 .card__heading-span--3 {
   background-image: linear-gradient(
     to right bottom,
